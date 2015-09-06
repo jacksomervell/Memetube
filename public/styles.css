@@ -1,14 +1,22 @@
 body {
   background-color: hotpink ;
+  font-family: 'Lobster', cursive;
 }
 
 .brand-logo {
-  font-family: Arial;
+  display: inline-block;
+  padding-left: 200px;
+  font-family: 'Lobster', cursive;
   font-size: 100px;
   text-decoration: none;
-  margin: 0 auto;
 }
 
 .nav-wrapper {
   display: block;
+  font-family: 'Lobster', cursive;
+}
+
+.reel {
+  width: 10%;
+  margin-left: -10px
 }
