@@ -1,0 +1,9 @@
+<div class="row">
+  <div class="col s6 offset-s3">
+    <div class="collection">
+      <% @videos.each do |video| %>
+        <a href="/videos/<%= video['id'] %>" class="collection-item center-align"><%= video['title'] %></a>
+      <% end %>
+    </div>
+  </div>
+</div>

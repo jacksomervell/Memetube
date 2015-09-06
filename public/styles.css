@@ -1,0 +1,14 @@
+body {
+  background-color: hotpink ;
+}
+
+.brand-logo {
+  font-family: Arial;
+  font-size: 100px;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.nav-wrapper {
+  display: block;
+}

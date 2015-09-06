@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col s6 offset-s3">
+    <div class="card blue-grey darken-1">
+      <div class="card-content white-text">
+        <span class="card-title"><%= @video['title'] %></span>
+        <p><%= @video['description'] %></p>
+      </div>
+      <div class="card-action">
+        <a href="/videos/<%= @video['id'] %>/edit">edit</a>
+        <form action="/videos/<%= @video['id'] %>/delete" method="post">
+          <button class="fake-link">delete</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
