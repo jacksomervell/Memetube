@@ -9,6 +9,7 @@ body {
   font-family: 'Lobster', cursive;
   font-size: 100px;
   text-decoration: none;
+  color: white;
 }
 
 .nav-wrapper {
@@ -19,4 +20,26 @@ body {
 .reel {
   width: 10%;
   margin-left: -10px
+}
+
+ul {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  
+}
+
+li {
+
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  
 }

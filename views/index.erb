@@ -3,6 +3,7 @@
     <div class="collection">
       <% @videos.each do |video| %>
         <a href="/videos/<%= video['id'] %>" class="collection-item center-align"><%= video['title'] %></a>
+        <iframe width="560" height="315" src="<%= video["link"] %> frameborder="0" allowfullscreen></iframe> 
       <% end %>
     </div>
   </div>
